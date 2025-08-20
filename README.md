@@ -67,9 +67,9 @@ keywords:
   - "technology"
 
 llm:
-  provider: "google"
-  model: "gemini-1.5-pro" # "gemini-1.5-flash" non pro
-  api_key: "YOUR_GOOGLE_GENAI_API_KEY"
+  - provider: "google"
+  - model: "gemini-1.5-pro" # "gemini-1.5-flash" non pro
+  - api_key: "YOUR_GOOGLE_GENAI_API_KEY"
 
 
 
