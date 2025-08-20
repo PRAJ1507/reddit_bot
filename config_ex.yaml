@@ -1,0 +1,40 @@
+reddit:
+  client_id: "YOUR_REDDIT_CLIENT_ID"
+  client_secret: "YOUR_REDDIT_SECRET"
+  user_agent: "bot_project by u/YOUR_REDDIT_USERNAME"
+  username: "YOUR_REDDIT_USERNAME"   # your one bot account
+
+subreddits:
+  - "india"
+  - "AskReddit"
+  - "ChatGPT"
+
+keywords:
+  - "AI"
+  - "technology"
+  - "climate"
+
+keyword_aliases:
+  AI:
+    - "artificial intelligence"
+    - "machine learning"
+    - "ml"
+    - "llm"
+    - "neural network"
+  technology:
+    - "tech"
+    - "innovation"
+  climate:
+    - "global warming"
+    - "climate change"
+    - "environment"
+
+bot:
+  scan_interval: 3600   # seconds between scans (1 hour) can set for testing purpose
+  reply_delay: 120      # delay between replies (2 min)
+  max_replies_per_hour: 5
+
+llm:
+  provider: "google"
+  model: "gemini-1.5-pro"   # bot will fallback to "gemini-1.5-flash" if quota exceeded
+  api_key: "YOUR_GOOGLE_GENAI_API_KEY"
