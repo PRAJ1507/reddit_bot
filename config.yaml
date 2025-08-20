@@ -3,7 +3,8 @@ reddit:
   client_secret: "YOUR_REDDIT_SECRET"
   user_agent: "bot_project by u/YOUR_REDDIT_USERNAME"
   username: "YOUR_REDDIT_USERNAME"   # your one bot account
-
+  password: "YOUR_PASSWORD"
+  
 subreddits:
   - "india"
   - "AskReddit"
@@ -30,7 +31,7 @@ keyword_aliases:
     - "environment"
 
 bot:
-  scan_interval: 3600   # seconds between scans (1 hour) can set for testing purpose
+  scan_interval: 3600   # seconds between scans (1 hour) can set for testing purpose like 60
   reply_delay: 120      # delay between replies (2 min)
   max_replies_per_hour: 5
 
